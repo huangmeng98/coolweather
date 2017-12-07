@@ -1,5 +1,7 @@
 package com.example.hp.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by hp on 2017/12/4.
  */
@@ -30,8 +32,8 @@ public class County extends DataSupport {
     public int getCityId(){
         return cityId;
     }
-    public void setCityId(){
-        this.cityId=cityId;
+    public void setCityId(int cityId){
+        this.cityId= this.cityId;
     }
 
 }

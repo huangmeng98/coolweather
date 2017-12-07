@@ -1,5 +1,7 @@
 package com.example.hp.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by hp on 2017/12/4.
  */

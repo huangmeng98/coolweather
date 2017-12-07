@@ -1,5 +1,7 @@
 package com.example.hp.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by hp on 2017/12/4.
  */
@@ -30,9 +32,10 @@ public class City extends DataSupport {
     public int getProvinceId(){
         return provinceId;
     }
-    public void setProvinceId(){
-        this.provinceId=provinceId;
+    public void setProvinceId(int provinceId){
+        this.provinceId= this.provinceId;
     }
+
 
 
 }
